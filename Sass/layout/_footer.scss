@@ -1,0 +1,20 @@
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+
+    .le-contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3{
+        color: #fff;
+    }
+
+    .logo img{
+        width: 50%;
+        height: 100%;
+    }
+}
