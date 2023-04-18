@@ -1,0 +1,50 @@
+.la-tete{
+    background:linear-gradient(222deg,rgba(151, 32, 32, 0.84), rgba(183, 14, 14, 0.75) , rgb(148 15 15 / 91%),transparent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+
+    .logo img{
+        width: 20%;
+        height: 100%;
+    }
+
+    .menu{
+        display: flex;
+        gap: 120px;
+        height: 100%;
+    }
+
+    .menu li {
+        list-style-type: none;
+    }
+
+    .menu a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+}
+
+}
+
+.contenu{
+    background-image: url(/images/logo/football.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:800px;
+    width:100%;
+
+    .nom-de-club{
+        font-size: 30px;
+        color: #000000;
+        text-align: center;
+    }
+
+    .nom-de-club h1{
+        margin-top: 0%;
+        padding-top:9%;
+}
+
+}
