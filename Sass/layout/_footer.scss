@@ -1,5 +1,5 @@
 .footer{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.698);
     display: flex;
     justify-content: space-around;
 
@@ -7,14 +7,71 @@
     .le-contact{
         display: flex;
         flex-direction: column;
+        margin-top: 2%;
+        width: 11%;
+
+        
+        h3{
+            color: #fff;
+            text-align: center;
+            font-family: $policeTitre;
+            text-transform: uppercase;
+        }
+        
+        .reseux-sociaux{
+            margin: 9%;
+            letter-spacing: 30px;
+
+        
+        }
+        
+        .reseux-sociaux1{
+            margin: 9%;
+            letter-spacing: 30px;
+        }
+        
     }
 
-    h3{
-        color: #fff;
+
+    .logo{
+        
+        background:linear-gradient(222deg,rgba(151, 32, 32, 0.84), rgba(183, 14, 14, 0.75) , rgb(148 15 15 / 91%),transparent);
+        display: flex;
+        justify-content: center;
+
+        img{
+            width: 50%;
+            height: 100%;
+        }
     }
 
-    .logo img{
-        width: 50%;
+    .menu-footer{
+        margin-top: 2%;
+        width: 15%;
+
+        h3{
+            color: #fff;
+            text-align: center;
+            font-family: $policeTitre;
+            text-transform: uppercase;
+        }
+    }
+
+    .menu-footer{
+
         height: 100%;
     }
+
+    .menu-footer li {
+        list-style-type: none;
+    }
+
+    .menu-footer a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+}
+
+
+
 }
