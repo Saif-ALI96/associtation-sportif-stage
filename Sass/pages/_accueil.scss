@@ -1,6 +1,39 @@
+*{
+     box-shadow: 0 0 0 3px red inset;
+}
 body{
      margin: auto;
      padding: 0%;
-     // background-color:#474747;
+     background-color:#474747;
 }
+
+.presnet-club{
+
+     padding-top: 8%;
+     font-family: $policeTexte;
+     
+     p{
+          margin-left: 5%;
+          margin-right: 5%;
+          line-height: 28px;
+          color: $color-p;
+     }
+}
+
+main{
+
+     margin-top: 10%;
+
+      h2{
+          margin-top: 15%;
+          text-align: center;
+          text-transform: uppercase;
+          color: $orange;
+          font-size:$titre-size;
+
+     }
+   
+}
+
+
 
