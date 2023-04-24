@@ -22,5 +22,26 @@
     }
 }
 
+.bouton2{
+
+    .bouton {
+        padding: 13px 26px;
+        border-radius: 30px;
+        background-color:rgba(220, 95, 0, 0.87);
+        
+    }
+    
+    .bouton a {
+        
+        color: black;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-family: $policeTitre;
+        font-size: 20px;
+
+    }
+}
+
+
 
     
