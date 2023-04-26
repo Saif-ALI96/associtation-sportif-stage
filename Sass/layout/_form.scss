@@ -24,7 +24,7 @@
         display: flex;
         flex-direction: column;
         align-items:flex-start;
-        width: 100%;
+        width: 66%;
     
     }
     
@@ -129,7 +129,7 @@
         margin-top: 20px;
         display: flex;
         align-self: center;
-        margin-left: 60%;
+        margin-left: 145%;
         margin-right: 13.5%;
         border-radius: 20px;
         letter-spacing: 2px;
@@ -143,84 +143,84 @@
     
     
     
-    //  @media all and  (max-width: 500px){
+     @media all and  (max-width: 500px){
     
-    //     .formulaire{
-    //        width:90%;
-    //        margin-left: 2%;
-    //        margin-right: 2%;
-    //     }
+        .formulaire{
+           width:90%;
+           margin-left: 2%;
+           margin-right: 2%;
+        }
        
-    //     .formulaire h2{
-    //        text-align: center;
-    //        font-size: large;
-    //     }
+        .formulaire h2{
+           text-align: center;
+           font-size: large;
+        }
        
-    //     .name{
-    //        flex-direction: column;
-    //        gap: 10px;
-    //        margin-left: 10%;
-    //        margin-right: 5%;
-    //        padding-bottom:0;
-    //    }
+        .name{
+           flex-direction: column;
+           gap: 10px;
+           margin-left: 10%;
+           margin-right: 5%;
+           padding-bottom:0;
+       }
        
-    //    .lastname input{
-    //     width: 100%;
-    //     height:30px;
-    //     margin-top: 10px;
+       .lastname input{
+        width: 100%;
+        height:30px;
+        margin-top: 10px;
        
-    //    }
+       }
     
-    //    .firstname input{
-    //     width: 100%;
-    //     height:30px;
-    //     margin-top: 10px;
+       .firstname input{
+        width: 100%;
+        height:30px;
+        margin-top: 10px;
        
-    //    }
-    //    .mail-phone{
-    //     margin-left: 10%;
-    //     margin-right: 5%;
-    //    }
+       }
+       .mail-phone{
+        margin-left: 10%;
+        margin-right: 5%;
+       }
     
-    //    .email input{
-    //     width: 100%;
-    //     height:30px;
-    //     margin-top: 10px;
-    //    }
+       .email input{
+        width: 100%;
+        height:30px;
+        margin-top: 10px;
+       }
     
-    //    .phone input{
-    //     width: 100%;
-    //     height:30px;
-    //     margin-top: 10px;
-    //    }
+       .phone input{
+        width: 100%;
+        height:30px;
+        margin-top: 10px;
+       }
     
-    //    .ville{
-    //     margin-left: 10%;
-    //     gap: 0;
-    //     margin-right: 5%;
-    //    }
-    //    .ville input{
-    //     width: 100%;
-    //     height:30px;
-    //    }
+       .ville{
+        margin-left: 10%;
+        gap: 0;
+        margin-right: 5%;
+       }
+       .ville input{
+        width: 100%;
+        height:30px;
+       }
     
-    //    .message{
-    //     margin-left: 10%;
-    //     margin-right: 5%;
-    //    }
-    //    .message textarea{
-    //     width: 100%;
-    //     height: 150px;
-    //     margin: auto;
-    //     }
+       .message{
+        margin-left: 10%;
+        margin-right: 5%;
+       }
+       .message textarea{
+        width: 100%;
+        height: 150px;
+        margin: auto;
+        }
     
-    //     .contact button{
-    //         display: flex;
-    //         align-self: flex-start;
-    //         margin-left: 10%;
-    //     }
+        .contact button{
+            display: flex;
+            align-self: flex-start;
+            margin-left: 10%;
+        }
        
-    // }
+    }
 
     
        
