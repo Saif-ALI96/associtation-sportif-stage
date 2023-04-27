@@ -7,9 +7,11 @@ body{
      background-color:#474747;
 }
 
+// pour le contenu de la page
+
 .presnet-club{
 
-     padding-top: 8%;
+     padding-top: 9%;
      font-family: $policeTexte;
      
      p{
@@ -23,10 +25,10 @@ body{
 
 main{
 
-     margin-top: 10%;
+     margin-top: 5%;
 
       h2{
-          margin-top: 15%;
+          // margin-top: 15%;
           text-align: center;
           text-transform: uppercase;
           color: $orange;
@@ -87,6 +89,37 @@ main{
 
      }
 
+
+
+
+}
+
+// pour le contenu de la page 
+
+@media all and  (max-width: 500px){
+
+.presnet-club{
+
+     p{
+          line-height: 24px;
+          font-size: small;
+     }
+}
+
+main{
+     height: 100%;
+     width: 100%;
+
+     h2{
+          font-size: larger;
+     }
+
+}
+
+.slider img{
+     height: 100%;
+     width: 100%;
+}
 
 
 

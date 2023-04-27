@@ -34,20 +34,29 @@
 }
 
 .contenu{
-    background-image: url(/images/logo/football.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height:800px;
-    width:100%;
+    // background-image: url(/images/logo/football.jpeg);
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // height:800px;
+    // width:100%;
 
     .nom-de-club{
-        font-size: 30px;
-        color: #000000;
-        text-align: center;
+        background-image: url(/images/logo/football.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:800px;
+        width:100%;
     }
+    
+      
+    
 
     .nom-de-club h1{
+        font-size: 60px;
+        color: #000000;
+        text-align: center;
         margin-top: 0%;
         padding-top:9%;
 }
@@ -59,16 +68,17 @@
 
 @media all and  (max-width: 500px){
 
+    // pour le menu tout ça
 .la-tete{
     display: block;
     width: 100%;
     padding-right: 0;
 
     .menu{
-        gap: 80px;
-        margin-left: 3%;
-        margin-right: 5%;
-        padding-left: 4%;
+        justify-content: space-around;
+        margin: 0;
+        padding: 1%;
+        gap: 0;
         font-size: 4px;
 
 
@@ -86,5 +96,26 @@
         }
     }
 }
+// terminision de menu et le logo aussi 
+
+
+
+
+.contenu{
+
+    .nom-de-club {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 330px;
+    
+      h1{
+        font-size: 28px;
+        padding-top: 14.8%;
+    }
+}
+
+}
+
+
 
 }
