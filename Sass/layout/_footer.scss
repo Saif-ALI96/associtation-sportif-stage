@@ -94,6 +94,37 @@
 @media all and  (max-width: 500px){
 
     .footer{
-        display: block;
+        flex-direction: column-reverse;
+
+
+        .le-contact{
+
+            display: block;
+            width: 100%;
+
+            .reseux-sociaux{
+                letter-spacing: 90px;
+                margin-left: 23%;
+                padding-left: 5%;
+            }
+
+            .reseux-sociaux1{
+                letter-spacing: 90px;
+                margin-left: 23%;
+                padding-left: 5%;
+            }
+        }
+
+        
+        .menu-footer{
+            width: 100%;
+            
+        }
+
+        ul{
+            justify-content: space-around;
+        }
+
+
     }
 }
