@@ -1,8 +1,9 @@
 .bloc1{
 
     display: flex;
+    flex-direction: row-reverse;
     margin-top: 5%;
-    margin-right: 5%;
+    margin-right: 10%;
 
     .titre1{
         margin-left: 5%;
@@ -22,7 +23,7 @@
     }
 
     img{
-        width: 100%;
+        width: 135%;
         height: 100%;
         border-radius: 100px 0 0 0;
     }
@@ -32,6 +33,7 @@
 .bloc2{
 
     display: flex;
+    flex-direction: row-reverse;
     margin-left: 5%;
     margin-top: 5%;
 
@@ -54,7 +56,7 @@
     }
 
     img{
-        width: 100%;
+        width: 80%;
         height: 100%;
         border-radius: 0 100px 0 0;
 
@@ -88,11 +90,116 @@
         color: #fff;
     }
 
+    .photo3{
+        margin-right: 5%;
+    }
+
 
     img{
-        width: 100%;
+        width: 130%;
         height: 100%;
         border-radius: 100px 0 0 0;
 
     }
+
+}
+
+@media all and (max-width: 500px){
+
+
+    .bloc1{
+
+        flex-direction: column;
+
+        .photo1{
+
+            text-align: center;
+
+        }
+
+        img{
+            width: 60%;
+            height: 100%;
+        }
+
+        .titre1{
+
+            h2{
+                text-align: center;
+                font-size: larger;
+            }
+            
+            p{
+                line-height: 24px;
+                font-size: small;
+            }
+        }
+    }
+
+    .bloc2{
+
+        flex-direction: column-reverse;
+
+        .photo2{
+
+            text-align: center;
+
+        }
+
+        img{
+            width: 50%;
+            height: 50%;
+
+    }
+
+    .titre2{
+
+        h2{
+            text-align: center;
+            font-size: larger;
+        }
+        
+        p{
+            line-height: 24px;
+            font-size: small;
+        }
+
+    }
+
+
+}
+
+.bloc3{
+
+    flex-direction: column-reverse;
+
+    .photo3{
+
+        text-align: center;
+
+    }
+
+    img{
+        width: 75%;
+        height: 100%;
+
+}
+
+.titre3{
+
+    h2{
+        text-align: center;
+        font-size: larger;
+    }
+    
+    p{
+        line-height: 24px;
+        font-size: small;
+    }
+
+}
+
+
+}
+
 }
